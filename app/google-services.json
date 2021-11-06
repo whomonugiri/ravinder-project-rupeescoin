@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226844359240",
+    "project_id": "rupeescoin-4a96a",
+    "storage_bucket": "rupeescoin-4a96a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226844359240:android:4afaddab8f2199316c767d",
+        "android_client_info": {
+          "package_name": "com.myapps.rupeescoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226844359240-0vgafch0u2u2jv5s8konbcvtomnh6tod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6oACUybabI2MTnlsokVXU_9kEOlFAw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226844359240-0vgafch0u2u2jv5s8konbcvtomnh6tod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
