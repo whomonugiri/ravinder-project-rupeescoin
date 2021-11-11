@@ -325,7 +325,7 @@ public class ScratchActivity extends AppCompatActivity implements ScratchListene
         if (Constant.isNetworkAvailable(activity)) {
             random_points = "";
             Random random = new Random();
-            random_points = String.valueOf(random.nextInt(15));
+            random_points = String.valueOf(random.nextInt(10));
             points_text.setText(random_points);
         } else {
             Constant.showInternetErrorDialog(activity, getResources().getString(R.string.no_internet_connection));

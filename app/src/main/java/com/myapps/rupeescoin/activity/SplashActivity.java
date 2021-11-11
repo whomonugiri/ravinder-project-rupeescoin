@@ -93,6 +93,8 @@ public class SplashActivity extends AppCompatActivity {
                                     if (user.getName() != null) {
                                         Constant.setString(activity, Constant.USER_NAME, user.getName());
                                         Log.e("TAG", "onDataChange: " + user.getName());
+                                        Constant.setString(activity,    Constant.CV, jsonObject.getString("coin_value"));
+
                                     }
                                     if (user.getNumber() != null) {
                                         Constant.setString(activity, Constant.USER_NUMBER, user.getNumber());

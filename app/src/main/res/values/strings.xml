@@ -36,14 +36,14 @@
     <!--TODO change these singup bonus give to user at sign up-->
     <string name="singup_bonus_points" translatable="false">5000</string>
     <!--TODO change these daily check in limit ACCORDING TO NEED-->
-    <string name="daily_check_in_points" translatable="false">20</string>
+    <string name="daily_check_in_points" translatable="false">10</string>
 
     <string name="redeem_tag_line_1">Are You Sure to want Redeem your rupees coins</string>
     <string name="redeem_tag_line_2">your number or upi id is </string>
     <string name="redeem_tag_line_3">and your redeem points are </string>
     <string name="redeem_tag_line_4">and your redeem method is </string>
     <string name="refer_more">Refer More to Earn More</string>
-    <string name="refer_desc">Invite your friend on Daily Loot - Scratch &amp; Spin to Win App using your Refer Code to Earn 500 Rupees Coins when they redeem his Rupees Coins first time on Daily Loot - Scratch &amp; Spin to Win. Your friend also get 100 Rupees Coins as Sign up Bonus.</string>
+    <string name="refer_desc">Invite your friend on Daily Loot - Scratch &amp; Spin to Win App using your Refer Code to Earn 5000 Rupees Coins when they redeem his Rupees Coins first time on Daily Loot - Scratch &amp; Spin to Win. Your friend also get 5000 Rupees Coins as Sign up Bonus.</string>
 
     <string name="loading">Loading…</string>
     <string name="login">Login</string>

@@ -67,13 +67,9 @@ public class RedeemActivity extends AppCompatActivity {
         } else {
             user_points_textView.setText(Constant.getString(activity, Constant.USER_POINTS));
         }
-        coin_value_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Constant.GotoNextActivity(activity, PrivacyActivity.class, "coinvalue");
-                overridePendingTransition(R.anim.enter, R.anim.exit);
-            }
-        });
+        String ccv = Constant.getString(activity, Constant.CV);
+
+        coin_value_btn.setText("1 Ruppes Coin = "+ccv+" INR");
         redeemBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

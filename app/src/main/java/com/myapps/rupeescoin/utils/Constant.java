@@ -54,6 +54,8 @@ public class Constant {
     public static final String USER_BLOCKED = "user_blocked";
     public static final String LANGUAGE = "language";
     public static final String USER_NAME = "user_name";
+    public static final String CV = "coin_value";
+
     public static final String USER_NUMBER = "user_number";
     public static final String USER_EMAIL = "user_email";
     public static final String USER_POINTS = "user_points";
@@ -71,7 +73,7 @@ public class Constant {
     public static final String USER_ID = "user_id";
     public static final String USER_PASSWORD = "password";
     private static PrefManager prefManager;
-    private static String ShareText = "Hey You Know About this App. I have earned 100 Rupees from this app, you also want to earn money so click on link below and download it from play store and use My Refer code to get instant bonus My Refer code is ";
+    private static String ShareText = "Hey You Know About this App. I have earned 5000 Rupees from this app, you also want to earn money so click on link below and download it from play store and use My Refer code to get instant bonus My Refer code is ";
     public static InterstitialAd interstitial_Ad;
     public static com.facebook.ads.InterstitialAd interstitialAd;
     public static RewardedAd rewarded_ad;

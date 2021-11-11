@@ -238,6 +238,8 @@ public class LoginFragment extends Fragment {
                             Constant.showBlockedDialog(mContext, getResources().getString(R.string.you_are_blocked));
                         } else {
                             Constant.setString(mContext, Constant.IS_LOGIN, "true");
+                            Constant.setString(mContext,    Constant.CV, jsonObject.getString("coin_value"));
+
                             Constant.showToastMessage(mContext, getResources().getString(R.string.login_successfully));
 
 
